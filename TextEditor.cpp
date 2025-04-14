@@ -765,7 +765,6 @@ void TextEditor::HandleKeyboardInputs()
 			for (int i = 0; i < io.InputQueueCharacters.Size; i++)
 			{
 				auto c = io.InputQueueCharacters[i];
-                std::cout << "EnterCharacter: " << static_cast<char>(c) << std::endl;
 				if (c != 0 && (c == '\n' || c >= 32))
 					EnterCharacter(c, shift);
 			}
