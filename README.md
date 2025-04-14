@@ -1,3 +1,5 @@
+Fork of [original](https://github.com/BalazsJako/ImGuiColorTextEdit) with various fixes for ImGui 1.91.9-docking.
+
 # ImGuiColorTextEdit
 Syntax highlighting text editor for ImGui
 
